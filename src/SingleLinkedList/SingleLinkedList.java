@@ -1,6 +1,11 @@
 package SingleLinkedList;
 
 
+/**
+ * @author Ali
+ *
+ * @param <E>
+ */
 public class SingleLinkedList<E> {
 
 	protected static class Node<E> {
@@ -132,8 +137,6 @@ public E removeLast() {
 		
 		
 	}
-
-	
 
 	public void printList() {
 		Node<E> aNode = head;

@@ -1,5 +1,9 @@
 package Stack;
 
+/**
+ * @author Ali Azhari
+ *
+ */
 public class StackDemo {
 
 	public static void main(String[] args) {
@@ -39,7 +43,7 @@ public class StackDemo {
 		System.out.println("Popping element from the statck: " + stackLinkedList.pop() + " is popped");
 		System.out.println("Popping element from the statck: " + stackLinkedList.pop() + " is popped");
 		stackLinkedList.printStack(); // Shoulg print A, B
-		System.out.println("The size of the stack " + stackLinkedList.size());
+		System.out.println("\nThe size of the stack " + stackLinkedList.size());
 
 	}
 

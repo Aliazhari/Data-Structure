@@ -1,5 +1,6 @@
 package Queue;
 
+
 /**
  * @File QueueLinkedList.java
  * 
@@ -121,5 +122,7 @@ public class QueueLinkedList<E> implements Queue<E> {
 		}
 
 	}
+
+	
 
 }

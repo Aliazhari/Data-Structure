@@ -1,5 +1,7 @@
 package Queue;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * @File QueueLinkedList.java
@@ -41,6 +43,8 @@ public class QueueLinkedList<E> implements Queue<E> {
 	protected Node front;
 	protected Node rear;
 	protected int size;
+	
+	protected ArrayList<String> ar = new ArrayList<>();
 
 	public QueueLinkedList() {
 
@@ -52,6 +56,10 @@ public class QueueLinkedList<E> implements Queue<E> {
 
 	@Override
 	public void enqueue(E element) {
+		
+		Iterator<String> itr = ar.iterator();
+		ar.add("Ali");
+		System.out.println(itr.hasNext());
 
 		// Running time is O(1)
 		Node newNode = new Node(element, null);

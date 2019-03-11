@@ -1,5 +1,12 @@
 package Queue;
 
+/**
+ * @File QueueLinkedList.java
+ * 
+ * @author Ali Azhari
+
+ * @param <E>
+ */
 public class QueueLinkedList<E> implements Queue<E> {
 
 	protected class Node {

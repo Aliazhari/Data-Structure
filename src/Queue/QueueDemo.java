@@ -1,7 +1,11 @@
 package Queue;
 
-import Stack.StackLinkedList;
+/**
+ * @File QueueDemo.java
+ * 
+ * @author Ali Azhari
 
+ */
 public class QueueDemo {
 
 	public static void main(String[] args) {

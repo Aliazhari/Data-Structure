@@ -1,6 +1,6 @@
 package PriorityQueue;
 
-public class PQEntry<K, V> implements Entry<K, V> {
+public class PQEntry<K, V> implements Entry<K, V> , Comparable<Entry<K,V>>{
 
 	private K key; 
 	private V value;
@@ -30,6 +30,22 @@ public class PQEntry<K, V> implements Entry<K, V> {
 	public void setValue(V value) {
 		this.value = value;
 	}
+
+	@Override
+	public String toString() {
+		return "PQEntry [key=" + key + ", value=" + value + "]";
+	}
+
+	@Override
+	public int compareTo(Entry<K, V> o) {
+		if ((Integer) this.key == (Integer) o.getKey())
+			return 0;
+		if ((Integer) this.key > (Integer) o.getKey()) 
+			return 1;
+		else
+			return -1;
+	}
+	
 	
 
 }

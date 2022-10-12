@@ -1,6 +1,10 @@
-
-
 package PriorityQueue;
+
+/** ****************************************
+*  Author : Ali Azhari   
+*  Created On : Mon Oct 10 2022
+*  File : PQDemo.java
+****************************************** */
 
 public class PQDemo {
 

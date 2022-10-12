@@ -1,13 +1,10 @@
 package PriorityQueue;
 
-/**
- * @File Entry.java
- * 
- * @author Ali Azhari
-
- * @param <K>
- * @param <V>
- */
+/** ****************************************
+*  Author : Ali Azhari   
+*  Created On : Mon Oct 10 2022
+*  File : Entry.java
+****************************************** */
 public interface Entry<K, V> {
 
 	K getKey();

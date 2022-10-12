@@ -1,5 +1,9 @@
 package PriorityQueue;
-
+/** ****************************************
+*  Author : Ali Azhari   
+*  Created On : Mon Oct 10 2022
+*  File : PQEntry.java
+****************************************** */
 public class PQEntry<K, V> implements Entry<K, V> , Comparable<Entry<K,V>>{
 
 	private K key; 
